@@ -9,14 +9,16 @@ test: pytest rtest javatest
 
 
 help:
-	@echo "make all         Build cookbook for all platforms in HTML, will be available in ./build"
-	@echo "make test        Test cookbook for all platforms."
-	@echo "make py          Build the Cookbook for Python only."
-	@echo "make r           Build the Cookbook for R only."
-	@echo "make pytest      Verify the cookbook for Python only."
-	@echo "make rtest       Verify the cookbook for R only."
-	@echo "make java        Build the Cookbook for Java only."
-	@echo "make javatest    Verify the cookbook for Java only."
+	@echo "make all         	Build cookbook for all platforms in HTML, will be available in ./build"
+	@echo "make test        	Test cookbook for all platforms."
+	@echo "make py          	Build the Cookbook for Python only."
+	@echo "make r           	Build the Cookbook for R only."
+	@echo "make pytest      	Verify the cookbook for Python only."
+	@echo "make rtest       	Verify the cookbook for R only."
+	@echo "make java        	Build the Cookbook for Java only."
+	@echo "make javatest    	Verify the cookbook for Java only."
+	@echo "make cpp    	 	Build the cookbook for C++ only."
+	@echo "make cpptest   	 	Verify the cookbook for C++ only."
 
 pydeps:
 	@echo ">>> Installing Python Dependencies <<<\n"
